@@ -2275,7 +2275,7 @@ rm -f /tmp/cf_install.sh
             <div class="stats-row top-row">
               <div class="g-item">
                 <div class="g-label"></div>
-                <div class="g-sub">在线 <span style="color:#10b981">${globalOnline}</span> | 离线 <span style="color:#ef4444">${globalOffline}</span></div>
+                <div class="g-sub" style="text-align: center;">在线 <span style="color:#10b981">${globalOnline}</span> &nbsp; 离线 <span style="color:#ef4444">${globalOffline}</span></div>
               </div>
               
               <div class="g-item" style="border-left: 3px solid #f59e0b; padding-left:15px; border-radius: 0;">
