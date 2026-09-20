@@ -2274,20 +2274,15 @@ rm -f /tmp/cf_install.sh
           <div class="global-stats" id="ajax-stats">
             <div class="stats-row top-row">
               <div class="g-item">
-                <div class="g-label">本机服务器总数</div>
+                <div class="g-label">服务器总数</div>
                 <div class="g-val">${visibleServersCount} ${rankHtmlServer}</div>
                 <div class="g-sub">在线 <span style="color:#10b981">${globalOnline}</span> | 离线 <span style="color:#ef4444">${globalOffline}</span></div>
               </div>
               
               <div class="g-item" style="border-left: 3px solid #f59e0b; padding-left:15px; border-radius: 0;">
-                <div class="g-label">🌐 全网节点汇总 (Gossip)</div>
-                <div class="g-val"><span id="ajax-global-servers">0</span> 台 <button class="toggle-btn" style="display:inline-flex; font-size:12px; padding:2px 8px; margin-left:5px; vertical-align:middle;" onclick="openRankModal()">🏆 排名详情</button></div>
-                <div class="g-sub">全网总资产: <span id="ajax-global-assets">0.00</span> ${sys.asset_currency || '元'}</div>
               </div>
 
               <div class="g-item">
-                <div class="g-label">本机可见数字资产 (${sys.asset_currency || '元'})</div>
-                <div class="g-val">${visibleAsset.toFixed(2)} <span style="font-size:16px;color:#888;">总</span> | ${visibleRemAsset.toFixed(2)} <span style="font-size:16px;color:#888;">余</span> ${rankHtmlAsset}</div>
               </div>
             </div>
             
