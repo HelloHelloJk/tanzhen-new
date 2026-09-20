@@ -2272,15 +2272,11 @@ rm -f /tmp/cf_install.sh
           </div>
 
          <div class="global-stats" id="ajax-stats">
-  <div class="stats-row top-row" style="display: flex !important; justify-content: center !important; grid-template-columns: none !important;">
-    <div class="g-item" style="border: none !important; padding: 0 !important; width: 100% !important; text-align: center !important;">
-      <div class="g-sub" style="text-align: center !important; font-size: 14px;">
-        在线 <span style="color:#10b981; font-weight: bold;">${globalOnline}</span> &nbsp;&nbsp;&nbsp;&nbsp; 离线 <span style="color:#ef4444; font-weight: bold;">${globalOffline}</span>
-      </div>
-    </div>
-  </div>
-
-              <div class="g-item">
+            <div class="stats-row top-row" style="display: flex; justify-content: center; width: 100%;">
+              <div class="g-item" style="flex: none; width: 100%; border-right: none !important; text-align: center; padding: 0;">
+                <div class="g-sub" style="text-align: center; font-size: 14px;">
+                  在线 <span style="color:#10b981; font-weight: bold;">${globalOnline}</span> &nbsp;&nbsp;&nbsp;&nbsp; 离线 <span style="color:#ef4444; font-weight: bold;">${globalOffline}</span>
+                </div>
               </div>
             </div>
             
